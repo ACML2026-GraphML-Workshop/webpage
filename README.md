@@ -1,6 +1,6 @@
 # GML 2026 Workshop Website
 
-Static website for **Graph Machine Learning: Foundations, Frontiers, and Applications**, a proposed ACML 2026 workshop.
+Static website for **Graph Machine Learning: Foundations, Frontiers, and Applications**, an ACML 2026 workshop.
 
 ## Files
 
@@ -26,6 +26,12 @@ https://<your-github-username>.github.io/acml-gml-2026/
 
 ## Content Notes
 
-- ACML 2026 dates and workshop day are based on the official ACML 2026 website.
-- Workshop-specific submission deadline and notification date are currently marked as “To be announced.”
+- The submission timeline follows the ACML 2026 Workshop Chairs' notification:
+  August 18, 2026 call for papers; October 18, 2026 submission deadline;
+  October 30, 2026 acceptance notification; November 13, 2026 camera-ready
+  deadline; November 20, 2026 final programme; December 1, 2026 workshop day.
+- The detailed workshop timetable is intentionally not published yet because
+  ACML will coordinate official time slots across all workshops.
+- The OpenReview submission venue is marked as coming soon and should be linked
+  after the dedicated venue is created.
 - Speaker statuses are copied from the workshop proposal and should be updated after final confirmations.
