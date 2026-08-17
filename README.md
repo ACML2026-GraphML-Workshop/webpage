@@ -34,6 +34,9 @@ https://<your-github-username>.github.io/acml-gml-2026/
   deadline; November 20, 2026 final programme; December 1, 2026 workshop day.
 - The detailed workshop timetable is intentionally not published yet because
   ACML will coordinate official time slots across all workshops.
-- The OpenReview submission venue is marked as coming soon and should be linked
-  after the dedicated venue is created.
+- The OpenReview submission venue is linked at
+  `https://openreview.net/group?id=ACML.org/2026/Workshop/GraphML`.
+- The submission section lists two accepted submission types: 1-page extended
+  abstracts and short workshop papers of up to 4 pages, excluding references and
+  supplementary material. Review is single-blind.
 - Speaker statuses are copied from the workshop proposal and should be updated after final confirmations.

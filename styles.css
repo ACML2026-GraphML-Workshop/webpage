@@ -286,6 +286,55 @@ h1 {
   font-size: 1.03rem;
 }
 
+.cfp-details {
+  display: grid;
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.cfp-details article {
+  border-left: 3px solid var(--teal);
+  padding-left: 18px;
+}
+
+.cfp-details h3,
+.cfp-topic-columns h3 {
+  font-size: 1.12rem;
+  line-height: 1.25;
+  margin: 0 0 8px;
+}
+
+.cfp-details p {
+  color: #435862;
+  margin-bottom: 10px;
+}
+
+.cfp-details p:last-child {
+  margin-bottom: 0;
+}
+
+.instruction-list {
+  display: grid;
+  gap: 9px;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.instruction-list li {
+  color: #435862;
+}
+
+.instruction-list a {
+  color: var(--teal-dark);
+  font-weight: 850;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.submission-full {
+  grid-column: 1 / -1;
+}
+
 .muted {
   background: var(--mist);
 }
@@ -297,6 +346,7 @@ h1 {
 }
 
 .topic-grid article,
+.cfp-topic-columns article,
 .speaker-list article,
 .organizer-grid article,
 .date-panel,
@@ -326,10 +376,32 @@ h1 {
 }
 
 .topic-grid p,
+.cfp-topic-columns li,
 .speaker-list p,
 .organizer-grid p {
   color: #536872;
   margin-bottom: 0;
+}
+
+.cfp-topic-columns {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.cfp-topic-columns article {
+  padding: 24px;
+}
+
+.cfp-topic-columns ul {
+  display: grid;
+  gap: 8px;
+  margin: 14px 0 0;
+  padding-left: 20px;
+}
+
+.cfp-topic-columns li {
+  line-height: 1.45;
 }
 
 .speaker-list {
@@ -555,6 +627,7 @@ h1 {
   .submission-grid,
   .contact,
   .topic-grid,
+  .cfp-topic-columns,
   .speaker-list,
   .organizer-grid {
     grid-template-columns: 1fr;
